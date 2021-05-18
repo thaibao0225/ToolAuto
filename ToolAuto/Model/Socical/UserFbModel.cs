@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ToolAuto.Model
+namespace ToolAuto.Model.Socical
 {
     class UserFbModel
     {
