@@ -161,5 +161,15 @@ namespace ToolAuto
 
         }
 
+        //Start Instagram
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SetDataInputSocialInstagram();
+
+            InstagramManagement instagramManagement = new InstagramManagement(UserInstagramModel);
+            instagramManagement.StartProfile();
+        }
+
+
     }
 }

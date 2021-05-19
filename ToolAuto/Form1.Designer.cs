@@ -445,6 +445,7 @@ namespace ToolAuto
             this.button4.TabIndex = 0;
             this.button4.Text = "Start";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // tabPage7
             // 
