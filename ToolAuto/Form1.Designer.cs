@@ -530,6 +530,7 @@ namespace ToolAuto
             this.button5.TabIndex = 0;
             this.button5.Text = "Start";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // tabPage8
             // 
@@ -557,6 +558,7 @@ namespace ToolAuto
             this.groupBox6.TabIndex = 1;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Control";
+            this.groupBox6.Enter += new System.EventHandler(this.groupBox6_Enter);
             // 
             // YoutubePasswordTxt
             // 
@@ -614,6 +616,7 @@ namespace ToolAuto
             this.button6.TabIndex = 0;
             this.button6.Text = "Start";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // tabPage2
             // 
@@ -722,6 +725,7 @@ namespace ToolAuto
             this.button7.TabIndex = 0;
             this.button7.Text = "Start";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // tabPage10
             // 
@@ -806,6 +810,7 @@ namespace ToolAuto
             this.button8.TabIndex = 0;
             this.button8.Text = "Start";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // tabPage11
             // 
@@ -890,6 +895,7 @@ namespace ToolAuto
             this.button9.TabIndex = 0;
             this.button9.Text = "Start";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // tabPage12
             // 
@@ -974,6 +980,7 @@ namespace ToolAuto
             this.button10.TabIndex = 0;
             this.button10.Text = "Start";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // tabPage13
             // 
@@ -1058,6 +1065,7 @@ namespace ToolAuto
             this.button11.TabIndex = 0;
             this.button11.Text = "Start";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // tabPage5
             // 

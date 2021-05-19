@@ -170,6 +170,73 @@ namespace ToolAuto
             instagramManagement.StartProfile();
         }
 
+        //Start TikTok
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SetDataInputSocialTikTok();
 
+            TikTokManagement tikTokManagement = new TikTokManagement(UserTikTokModel);
+            tikTokManagement.StartProfile();
+        }
+
+        private void groupBox6_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        //Start Youtube
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SetDataInputSocialYoutube();
+
+            YoutubeManagement youtubeManagement = new YoutubeManagement(UserYoutubeModel);
+            youtubeManagement.StartProfile();
+
+        }
+
+        //Start Shopee
+        private void button7_Click(object sender, EventArgs e)
+        {
+            SetDataInputSocialShopee();
+
+            ShopeeManagement shopeeManagement = new ShopeeManagement(UserShopeeModel);
+            shopeeManagement.StartProfile();
+        }
+
+        //Start Lazada
+        private void button8_Click(object sender, EventArgs e)
+        {
+            SetDataInputSocialLazada();
+
+            LazadaManagement lazadaManagement = new LazadaManagement(UserLazadaModel);
+            lazadaManagement.StartProfile();
+        }
+
+        //Start Sendo
+        private void button9_Click(object sender, EventArgs e)
+        {
+            SetDataInputSocialSendo();
+
+            SendoManagement sendoManagement = new SendoManagement(UserSendoModel);
+            sendoManagement.StartProfile();
+        }
+
+        //Start ChoTot
+        private void button10_Click(object sender, EventArgs e)
+        {
+            SetDataInputSocialChoTot();
+
+            ChototManagement chototManagement = new ChototManagement(UserChoTotModel);
+            chototManagement.StartProfile();
+        }
+
+        //Start MarketPlace
+        private void button11_Click(object sender, EventArgs e)
+        {
+            SetDataInputSocialMarketPlaceFB();
+
+            MarketPlaceManagement marketPlaceManagement = new MarketPlaceManagement(UserMarketingPlaceFbModel);
+            marketPlaceManagement.StartProfile();
+        }
     }
 }
