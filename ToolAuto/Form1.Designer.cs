@@ -34,6 +34,7 @@ namespace ToolAuto
             this.aa = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button14 = new System.Windows.Forms.Button();
             this.FacebookPasswordTxt = new System.Windows.Forms.TextBox();
             this.FacebookUserNameTxt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,6 +44,7 @@ namespace ToolAuto
             this.button2 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button18 = new System.Windows.Forms.Button();
             this.ZaloPasswordTxt = new System.Windows.Forms.TextBox();
             this.ZaloUserNameTxt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -52,6 +54,7 @@ namespace ToolAuto
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button16 = new System.Windows.Forms.Button();
             this.InstagramPasswordTxt = new System.Windows.Forms.TextBox();
             this.InstagramUserNameTxt = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -61,6 +64,7 @@ namespace ToolAuto
             this.button4 = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button15 = new System.Windows.Forms.Button();
             this.TikTokPasswordTxt = new System.Windows.Forms.TextBox();
             this.TikTokUserNameTxt = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -70,6 +74,7 @@ namespace ToolAuto
             this.button5 = new System.Windows.Forms.Button();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button17 = new System.Windows.Forms.Button();
             this.YoutubePasswordTxt = new System.Windows.Forms.TextBox();
             this.YoutubeUserNameTxt = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -77,6 +82,16 @@ namespace ToolAuto
             this.label15 = new System.Windows.Forms.Label();
             this.YoutubeUserTxt = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.button13 = new System.Windows.Forms.Button();
+            this.GooglePasswordTxt = new System.Windows.Forms.TextBox();
+            this.GoogleUserNameTxt = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.GoogleUserTxt = new System.Windows.Forms.TextBox();
+            this.button12 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage9 = new System.Windows.Forms.TabPage();
@@ -127,6 +142,11 @@ namespace ToolAuto
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.aa.SuspendLayout();
@@ -140,6 +160,8 @@ namespace ToolAuto
             this.groupBox5.SuspendLayout();
             this.tabPage8.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.tabPage14.SuspendLayout();
+            this.groupBox12.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.tabPage9.SuspendLayout();
@@ -185,6 +207,7 @@ namespace ToolAuto
             this.aa.Controls.Add(this.tabPage6);
             this.aa.Controls.Add(this.tabPage7);
             this.aa.Controls.Add(this.tabPage8);
+            this.aa.Controls.Add(this.tabPage14);
             this.aa.Location = new System.Drawing.Point(3, 3);
             this.aa.Name = "aa";
             this.aa.SelectedIndex = 0;
@@ -205,6 +228,8 @@ namespace ToolAuto
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button19);
+            this.groupBox2.Controls.Add(this.button14);
             this.groupBox2.Controls.Add(this.FacebookPasswordTxt);
             this.groupBox2.Controls.Add(this.FacebookUserNameTxt);
             this.groupBox2.Controls.Add(this.label3);
@@ -218,6 +243,15 @@ namespace ToolAuto
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Control";
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(690, 154);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 23);
+            this.button14.TabIndex = 8;
+            this.button14.Text = "Auto TT";
+            this.button14.UseVisualStyleBackColor = true;
             // 
             // FacebookPasswordTxt
             // 
@@ -290,6 +324,7 @@ namespace ToolAuto
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.button18);
             this.groupBox3.Controls.Add(this.ZaloPasswordTxt);
             this.groupBox3.Controls.Add(this.ZaloUserNameTxt);
             this.groupBox3.Controls.Add(this.label4);
@@ -303,6 +338,15 @@ namespace ToolAuto
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Control";
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(690, 154);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(75, 23);
+            this.button18.TabIndex = 8;
+            this.button18.Text = "Auto TT";
+            this.button18.UseVisualStyleBackColor = true;
             // 
             // ZaloPasswordTxt
             // 
@@ -375,6 +419,8 @@ namespace ToolAuto
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.button21);
+            this.groupBox4.Controls.Add(this.button16);
             this.groupBox4.Controls.Add(this.InstagramPasswordTxt);
             this.groupBox4.Controls.Add(this.InstagramUserNameTxt);
             this.groupBox4.Controls.Add(this.label7);
@@ -388,6 +434,15 @@ namespace ToolAuto
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Control";
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(689, 154);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 8;
+            this.button16.Text = "Auto TT";
+            this.button16.UseVisualStyleBackColor = true;
             // 
             // InstagramPasswordTxt
             // 
@@ -460,6 +515,8 @@ namespace ToolAuto
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.button20);
+            this.groupBox5.Controls.Add(this.button15);
             this.groupBox5.Controls.Add(this.TikTokPasswordTxt);
             this.groupBox5.Controls.Add(this.TikTokUserNameTxt);
             this.groupBox5.Controls.Add(this.label10);
@@ -473,6 +530,15 @@ namespace ToolAuto
             this.groupBox5.TabIndex = 1;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Control";
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(689, 155);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 23);
+            this.button15.TabIndex = 8;
+            this.button15.Text = "Auto TT";
+            this.button15.UseVisualStyleBackColor = true;
             // 
             // TikTokPasswordTxt
             // 
@@ -545,6 +611,7 @@ namespace ToolAuto
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.button17);
             this.groupBox6.Controls.Add(this.YoutubePasswordTxt);
             this.groupBox6.Controls.Add(this.YoutubeUserNameTxt);
             this.groupBox6.Controls.Add(this.label13);
@@ -559,6 +626,15 @@ namespace ToolAuto
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Control";
             this.groupBox6.Enter += new System.EventHandler(this.groupBox6_Enter);
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(690, 154);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(75, 23);
+            this.button17.TabIndex = 8;
+            this.button17.Text = "Auto TT";
+            this.button17.UseVisualStyleBackColor = true;
             // 
             // YoutubePasswordTxt
             // 
@@ -618,6 +694,101 @@ namespace ToolAuto
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // tabPage14
+            // 
+            this.tabPage14.Controls.Add(this.groupBox12);
+            this.tabPage14.Location = new System.Drawing.Point(4, 24);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage14.Size = new System.Drawing.Size(1449, 449);
+            this.tabPage14.TabIndex = 5;
+            this.tabPage14.Text = "Google";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.button13);
+            this.groupBox12.Controls.Add(this.GooglePasswordTxt);
+            this.groupBox12.Controls.Add(this.GoogleUserNameTxt);
+            this.groupBox12.Controls.Add(this.label31);
+            this.groupBox12.Controls.Add(this.label32);
+            this.groupBox12.Controls.Add(this.label33);
+            this.groupBox12.Controls.Add(this.GoogleUserTxt);
+            this.groupBox12.Controls.Add(this.button12);
+            this.groupBox12.Location = new System.Drawing.Point(3, 3);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(1443, 184);
+            this.groupBox12.TabIndex = 2;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Control";
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(695, 155);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 23);
+            this.button13.TabIndex = 7;
+            this.button13.Text = "Auto TT";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // GooglePasswordTxt
+            // 
+            this.GooglePasswordTxt.Location = new System.Drawing.Point(277, 155);
+            this.GooglePasswordTxt.Name = "GooglePasswordTxt";
+            this.GooglePasswordTxt.Size = new System.Drawing.Size(100, 23);
+            this.GooglePasswordTxt.TabIndex = 6;
+            // 
+            // GoogleUserNameTxt
+            // 
+            this.GoogleUserNameTxt.Location = new System.Drawing.Point(474, 155);
+            this.GoogleUserNameTxt.Name = "GoogleUserNameTxt";
+            this.GoogleUserNameTxt.Size = new System.Drawing.Size(100, 23);
+            this.GoogleUserNameTxt.TabIndex = 5;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(403, 158);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(65, 15);
+            this.label31.TabIndex = 4;
+            this.label31.Text = "UserName:";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(220, 158);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(60, 15);
+            this.label32.TabIndex = 3;
+            this.label32.Text = "Password:";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(6, 158);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(33, 15);
+            this.label33.TabIndex = 2;
+            this.label33.Text = "User:";
+            // 
+            // GoogleUserTxt
+            // 
+            this.GoogleUserTxt.Location = new System.Drawing.Point(45, 155);
+            this.GoogleUserTxt.Name = "GoogleUserTxt";
+            this.GoogleUserTxt.Size = new System.Drawing.Size(100, 23);
+            this.GoogleUserTxt.TabIndex = 1;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(599, 155);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 0;
+            this.button12.Text = "Start";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.tabControl3);
@@ -655,6 +826,8 @@ namespace ToolAuto
             // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.button22);
+            this.groupBox7.Controls.Add(this.button23);
             this.groupBox7.Controls.Add(this.ShopeePasswordTxt);
             this.groupBox7.Controls.Add(this.ShopeeUserNameTxt);
             this.groupBox7.Controls.Add(this.label16);
@@ -1098,6 +1271,51 @@ namespace ToolAuto
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(783, 154);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(92, 23);
+            this.button19.TabIndex = 9;
+            this.button19.Text = "Auto Gomlua";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(783, 154);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(98, 23);
+            this.button20.TabIndex = 9;
+            this.button20.Text = "Auto Golike";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(779, 154);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(98, 23);
+            this.button21.TabIndex = 10;
+            this.button21.Text = "Auto Golike";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(787, 154);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(98, 23);
+            this.button22.TabIndex = 12;
+            this.button22.Text = "Auto Golike";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Location = new System.Drawing.Point(692, 154);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(75, 23);
+            this.button23.TabIndex = 11;
+            this.button23.Text = "Auto TT";
+            this.button23.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1124,6 +1342,9 @@ namespace ToolAuto
             this.tabPage8.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.tabPage14.ResumeLayout(false);
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
             this.tabPage9.ResumeLayout(false);
@@ -1253,6 +1474,26 @@ namespace ToolAuto
         private System.Windows.Forms.TextBox TikTokUserTxt;
         private System.Windows.Forms.TextBox InstagramUserTxt;
         private System.Windows.Forms.TextBox MarketPlaceFBUserNameTxt;
+        private System.Windows.Forms.TabPage tabPage14;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.TextBox GooglePasswordTxt;
+        private System.Windows.Forms.TextBox GoogleUserNameTxt;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox GoogleUserTxt;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
     }
 }
 

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ToolAuto.Model.Socical
 {
-    public class UserTikTokModel
+    public class UserGoogleModel
     {
         [Key]
         public string user { get; set; }
@@ -13,6 +13,7 @@ namespace ToolAuto.Model.Socical
         public string password { get; set; }
 
         public string UserName { get; set; }
+
         public string phone { get; set; }
         public string email { get; set; }
     }

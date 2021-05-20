@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace ToolAuto.Model.Socical
 {
-    class UserFbModel
+    public class UserFbModel
     {
+        [Key]
         public string user { get; set; }
 
         public string password { get; set; }
