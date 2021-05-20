@@ -23,6 +23,7 @@ namespace ToolAuto
         UserTikTokModel UserTikTokModel;
         UserYoutubeModel UserYoutubeModel;
         UserZaloModel UserZaloModel;
+        UserGoogleModel UserGoogleModel;
 
         //Shop
         UserChoTotModel UserChoTotModel;
@@ -30,6 +31,7 @@ namespace ToolAuto
         UserMarketingPlaceFbModel UserMarketingPlaceFbModel;
         UserSendoModel UserSendoModel;
         UserShopeeModel UserShopeeModel;
+
 
 
         public Form1()
@@ -117,6 +119,14 @@ namespace ToolAuto
             UserMarketingPlaceFbModel.user = MarketPlaceFBUserTxt.Text;
             UserMarketingPlaceFbModel.password = MarketPlaceFBPasswordTxt.Text;
             UserMarketingPlaceFbModel.UserName = MarketPlaceFBUserNameTxt.Text;
+        }
+
+        private void SetDataInputSocialGoogle()
+        {
+            UserGoogleModel = new UserGoogleModel();
+            UserGoogleModel.user = GoogleUserTxt.Text;
+            UserGoogleModel.password = GooglePasswordTxt.Text;
+            UserGoogleModel.UserName = GoogleUserNameTxt.Text;
         }
 
 
@@ -237,6 +247,15 @@ namespace ToolAuto
 
             MarketPlaceManagement marketPlaceManagement = new MarketPlaceManagement(UserMarketingPlaceFbModel);
             marketPlaceManagement.StartProfile();
+        }
+
+        //Start Google
+        private void button12_Click(object sender, EventArgs e)
+        {
+            SetDataInputSocialGoogle();
+
+            GoogleManagement googleManagement = new GoogleManagement(UserGoogleModel);
+            googleManagement.StartProfile();
         }
     }
 }
